@@ -1,0 +1,33 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.App button {
+  background-color: hwb(240 27% 5%);
+  color: white;
+  padding: 10px;
+}
+.modal-content {
+  display: flex;
+  flex-direction: column;
+}
+input {
+  width: 200px;
+  margin: 10px;
+  margin-left: 5px;
+}
+.modal {
+  text-align: center;
+  border: 1px solid;
+  max-width: 300px;
+  margin-left: 40%;
+  margin-top: 20%;
+}
+
+.submit-button {
+  width: 60px;
+  text-align: center;
+  margin-left: 21px;
+  background-color: hwb(240 27% 5%);
+  cursor: pointer;
+}
